@@ -1,0 +1,54 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 50px;
+}
+#header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #0066CC;
+    background-image: linear-gradient(to bottom, #006699 0px, #00CCFF 100%);
+    background-repeat: repeat-x;     
+}
+#header h1 {
+    color: #FEFEFE;    
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background-color: #F5F5F5;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;    
+}
+#idQOTD {
+    background-color: #FFFF99;
+    background-image: linear-gradient(to bottom, #FFFF99 0px, #FFFFFF 100%);
+    background-repeat: repeat-x;    
+}
+#idQOTD cite {
+    font-style: italic;
+}
+div.linkedin > a > img {
+    margin-top: 14px;
+    margin-bottom: 13px;
+}
+img.logo32 {
+    width: 32px;
+    height: 32px;            
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+img.logo48 {
+    width: 48px;
+    height: 48px;            
+}
+p.thumbnail-toolbar 
+{
+    text-align: center;
+}

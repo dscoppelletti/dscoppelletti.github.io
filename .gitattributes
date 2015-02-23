@@ -1,0 +1,5 @@
+# Files attributes
+*.gif binary
+*.png binary
+.gitignore export-ignore
+.gitattributes export-ignore
