@@ -61,7 +61,7 @@
         "<cite>Troppo cerebrale per capire<br />che si pu&ograve; star bene senza calpestare il cuore,<br />ci si passa sopra almeno due o tre volte i piedi<br />come sulle aiuole.</cite><br />[&ldquo;Giudizi universali&rdquo;, Samuele Bersani, 1997]",
         "<cite>Devi stare attento a quello che chiedi perch&eacute; potresti essere accontentato.</cite>",
         "<cite>L&rsquo;abbondanza di bassa manovalanza a basso costo disincentiva qualsiasi tipo di crescita: tecnologica, economica, scientifica, culturale, sociale.</cite>",
-        "<cite>Laudato si&acute; mi&acute; Signore per sora nostra morte corporale, da la quale nullu homo vivente p&ograve; skappare</cite>[&ldquo;Laudes Creaturarum&rdquo;, Francesco d&rsquo;Assisi, 1224-1226]",
+        "<cite>Laudato si&acute; mi&acute; Signore per sora nostra morte corporale, da la quale nullu homo vivente p&ograve; skappare</cite> [&ldquo;Laudes Creaturarum&rdquo;, Francesco d&rsquo;Assisi, 1224-1226]",
     ];
     
     var n = Math.floor(Math.random() * qotd_array.length);

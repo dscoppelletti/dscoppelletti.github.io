@@ -1,5 +1,5 @@
-# Files attributes
-*.gif binary
+# Fies attributes
 *.png binary
 .gitignore export-ignore
 .gitattributes export-ignore
+

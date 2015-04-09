@@ -38,15 +38,13 @@ div.linkedin > a > img {
     margin-top: 14px;
     margin-bottom: 13px;
 }
-img.logo32 {
-    width: 32px;
-    height: 32px;            
-    margin-top: 14px;
-    margin-bottom: 14px;
-}
 img.logo48 {
     width: 48px;
     height: 48px;            
+}
+img.logo64 {
+    width: 64px;
+    height: 64px;            
 }
 p.thumbnail-toolbar 
 {
