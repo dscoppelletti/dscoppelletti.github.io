@@ -1,4 +1,4 @@
-# Fies attributes
+# Files attributes
 *.png binary
 .gitignore export-ignore
 .gitattributes export-ignore
