@@ -132,7 +132,7 @@
     if (global.it) {
         ext = global.it;
         if (typeof ext !== "object") {
-            throw new Error("Cannot add Programmer Power WUI's JavaScript " +
+            throw new Error("Cannot add it.scoppelletti.qotd JavaScript " +
                     "to already existing global object 'it' of type '" +
                     typeof ext + "'.");
         }				
