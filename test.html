@@ -8,17 +8,17 @@
 <script src="js/cookie_law.js" type="text/javascript"></script>
 <script type="text/javascript">
 <!--
-    objCookieLaw = new EUCookieLaw(cookieLawSettings);
+    new EUCookieLaw(cookieLawSettings);
 //-->
 </script>
 </head>
 <body>
     <h1>Cookie Test</h1>
-    <p class="text-muted">
+    <p>
         <script type="text/javascript">
         <!--
-	    document.write("isCookieEnabled=" + objCookieLaw.isCookieEnabled() +
-                           " isRejected=" + objCookieLaw.isRejected());
+	    document.write("isCookieEnabled=" + (new EUCookieLaw()).isCookieEnabled() +
+                           " isRejected=" + (new EUCookieLaw()).isRejected());
         //-->
         </script>
     </p>
