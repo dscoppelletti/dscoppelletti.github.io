@@ -62,6 +62,7 @@
         "<cite>Devi stare attento a quello che chiedi perch&eacute; potresti essere accontentato.</cite>",
         "<cite>L&rsquo;abbondanza di bassa manovalanza a basso costo disincentiva qualsiasi tipo di crescita: tecnologica, economica, scientifica, culturale, sociale.</cite>",
         "<cite>Laudato si&acute; mi&acute; Signore per sora nostra morte corporale, da la quale nullu homo vivente p&ograve; skappare</cite> [&ldquo;Laudes Creaturarum&rdquo;, Francesco d&rsquo;Assisi, 1224-1226]",
+        "<cite>Pu&ograve; darsi che alla fine del giorno verremo puniti per la nostra gentilezza.</cite> [&ldquo;Ronin&rdquo;, John Frankenheimer, 1998]"
     ];
     
     var n = Math.floor(Math.random() * qotd_array.length);
