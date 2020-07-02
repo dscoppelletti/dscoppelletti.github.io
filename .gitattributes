@@ -1,5 +1,7 @@
 # Files attributes
+*.mp4 binary
 *.png binary
+*.zip binary
 .gitignore export-ignore
 .gitattributes export-ignore
 
