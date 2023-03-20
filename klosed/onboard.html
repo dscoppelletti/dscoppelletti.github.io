@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
 <title>Qua</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+    body {
+        font-size: 300%;
+        margin: 0 2em 0 2em;
+    }
+</style>
 </head>
 <body>
     <h1>Qua</h1>
@@ -12,5 +19,31 @@
     <p>
     <a href="javascript:KlosedModule.finishActivity()">Termina</a>
     </p>
+    <script type="text/javascript">
+<!--
+(function(global) {
+    if (global.KlosedModule != null) {
+        return;
+    }
+
+    if (global.webkit != null &&
+        global.webkit.messageHandlers != null &&
+        global.webkit.messageHandlers.KlosedModule != null) {
+        global.KlosedModule = window.webkit.messageHandlers.KlosedModule;
+        return;
+    }
+
+    var init = function() {
+        return {
+            finishActivity : function() {
+                alert("finishActivity");
+            }
+        };
+    }
+
+    global.KlosedModule = init();
+})(window);
+//-->
+    </script>
 </body>
 </html>
