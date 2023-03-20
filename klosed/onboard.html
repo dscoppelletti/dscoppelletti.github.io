@@ -26,19 +26,27 @@
         return;
     }
 
+    var init = null
     if (global.webkit != null &&
         global.webkit.messageHandlers != null &&
         global.webkit.messageHandlers.KlosedModule != null) {
-        global.KlosedModule = window.webkit.messageHandlers.KlosedModule;
-        return;
-    }
+        var ios = global.webkit.messageHandlers.KlosedModule
 
-    var init = function() {
-        return {
-            finishActivity : function() {
-                alert("finishActivity");
-            }
-        };
+        init = function() {
+            return {
+                finishActivity : function() {
+                   ios.postMessage("finishActivity");
+                }
+            };
+        }
+    } else {
+        init = function() {
+            return {
+                finishActivity : function() {
+                    alert("finishActivity");
+                }
+            };
+        }
     }
 
     global.KlosedModule = init();
