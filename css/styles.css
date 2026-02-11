@@ -11,10 +11,10 @@ body {
     padding-bottom: 24px;
     background-color: #0066CC;
     background-image: linear-gradient(to bottom, #006699 0px, #00CCFF 100%);
-    background-repeat: repeat-x;     
+    background-repeat: repeat-x;
 }
 #header h1 {
-    color: #FEFEFE;    
+    color: #FEFEFE;
 }
 #footer {
     position: absolute;
@@ -24,12 +24,12 @@ body {
     height: 50px;
     background-color: #F5F5F5;
     padding-top: 0.5em;
-    padding-bottom: 0.5em;    
+    padding-bottom: 0.5em;
 }
 #idQOTD {
     background-color: #FFFF99;
     background-image: linear-gradient(to bottom, #FFFF99 0px, #FFFFFF 100%);
-    background-repeat: repeat-x;    
+    background-repeat: repeat-x;
 }
 #idQOTD cite {
     font-style: italic;
@@ -40,13 +40,20 @@ div.linkedin > a > img {
 }
 img.logo48 {
     width: 48px;
-    height: 48px;            
+    height: 48px;
 }
 img.logo64 {
     width: 64px;
-    height: 64px;            
+    height: 64px;
 }
-p.thumbnail-toolbar 
+p.address {
+    color: #777;
+}
+p.signature {
+    color: #777;
+    font-style: italic;
+}
+p.thumbnail-toolbar
 {
     text-align: center;
 }
